@@ -1,0 +1,494 @@
+{
+  "category": "CRYPTID",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/crawler",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "crawler",
+    "name": "Crawler",
+    "aliases": [
+      {
+        "name": "Cave Crawler",
+        "region": "General",
+        "meaning": "Emphasizes cave dwelling behavior"
+      },
+      {
+        "name": "The Rake",
+        "region": "Internet folklore",
+        "meaning": "Similar entity from creepypasta lore"
+      },
+      {
+        "name": "Pale Crawler",
+        "region": "General",
+        "meaning": "Emphasizes pale coloration"
+      }
+    ],
+    "category": "CRYPTID",
+    "subcategory": "Humanoid",
+    "tags": [
+      "humanoid",
+      "quadrupedal",
+      "nocturnal",
+      "cave-dwelling",
+      "north-america",
+      "pale-skin",
+      "modern-sightings"
+    ],
+    "status": "active",
+    "description": {
+      "summary": "A pale, emaciated humanoid creature that moves on all fours with disturbing speed and agility. First widely reported in the 2000s-2010s, often associated with cave systems and abandoned structures.",
+      "full": "The Crawler is a modern cryptid described as an extremely pale, thin humanoid creature that moves primarily on all fours with unsettling speed and flexibility. Witnesses report it as having elongated limbs, sunken features, and the ability to move in ways that seem to defy normal human anatomy. Unlike traditional cryptids with historical folklore roots, the Crawler phenomenon emerged primarily through internet forums and YouTube reports in the 2000s-2010s. Sightings are often associated with cave systems, abandoned mines, and remote wilderness areas. While sharing similarities with other pale humanoid entities from internet folklore, witnesses maintain these are genuine encounters with an unknown creature."
+    },
+    "etymology": {
+      "origin": "The term 'Crawler' emerged from online cryptid communities in the mid-2000s, describing the creature's distinctive quadrupedal locomotion.",
+      "meaning": "Named for its characteristic crawling movement on all fours",
+      "first_use": "circa 2005-2008"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "CRYPTID",
+      "type": "Humanoid",
+      "subtype": "Pale humanoid",
+      "variant": "North American"
+    },
+    "related_phenomena": [
+      {
+        "id": "rake",
+        "name": "The Rake",
+        "relationship": "similar",
+        "description": "Internet creepypasta entity with similar appearance"
+      },
+      {
+        "id": "dover-demon",
+        "name": "Dover Demon",
+        "relationship": "similar",
+        "description": "Massachusetts creature with similar pale humanoid features"
+      },
+      {
+        "id": "nightcrawler",
+        "name": "Fresno Nightcrawler",
+        "relationship": "distinct",
+        "description": "Different pale entity but sometimes confused"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "height": {
+        "min": 1.2,
+        "max": 1.8,
+        "unit": "meters",
+        "confidence": "low",
+        "notes": "Height when on all fours; could stand taller"
+      },
+      "weight": {
+        "min": 40,
+        "max": 70,
+        "unit": "kilograms",
+        "confidence": "very_low"
+      },
+      "coloration": [
+        "pale white",
+        "grayish white",
+        "sickly pale"
+      ],
+      "features": [
+        {
+          "feature": "Skin",
+          "description": "Extremely pale, hairless, stretched appearance",
+          "frequency": "always"
+        },
+        {
+          "feature": "Build",
+          "description": "Emaciated, skeletal, with visible bone structure",
+          "frequency": "always"
+        },
+        {
+          "feature": "Limbs",
+          "description": "Elongated arms and legs, disproportionate to body",
+          "frequency": "common"
+        },
+        {
+          "feature": "Eyes",
+          "description": "Large, dark or reflective; sometimes described as absent or sunken",
+          "frequency": "common"
+        },
+        {
+          "feature": "Face",
+          "description": "Gaunt, sunken features with prominent bone structure",
+          "frequency": "always"
+        },
+        {
+          "feature": "Hands/Feet",
+          "description": "Long fingers or claws; able to grip surfaces",
+          "frequency": "common"
+        }
+      ],
+      "morphology": "Emaciated humanoid that moves quadrupedally with unnatural flexibility. Body appears malnourished with visible skeletal structure. Limbs bend at unusual angles during movement."
+    },
+    "abilities": [
+      {
+        "ability": "Quadrupedal locomotion",
+        "description": "Moves on all fours with remarkable speed and agility",
+        "frequency": "always",
+        "evidence_level": "reported"
+      },
+      {
+        "ability": "Climbing",
+        "description": "Can scale walls, trees, and rocky surfaces",
+        "frequency": "common",
+        "evidence_level": "reported"
+      },
+      {
+        "ability": "Stealth",
+        "description": "Moves silently despite speed",
+        "frequency": "common",
+        "evidence_level": "reported"
+      },
+      {
+        "ability": "Night vision",
+        "description": "Appears to see well in complete darkness",
+        "frequency": "presumed",
+        "evidence_level": "speculation"
+      },
+      {
+        "ability": "Flexibility",
+        "description": "Joints appear to bend in ways beyond human capability",
+        "frequency": "common",
+        "evidence_level": "reported"
+      }
+    ],
+    "behavior": {
+      "activity_period": "nocturnal",
+      "disposition": "neutral_to_hostile",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "caves",
+        "abandoned mines",
+        "underground spaces",
+        "dense forests",
+        "abandoned structures"
+      ],
+      "diet": "Unknown, possibly carnivorous",
+      "patterns": [
+        "Avoids direct confrontation but may follow or stalk",
+        "Often observed near cave entrances at night",
+        "Reported to emit clicking or chittering sounds",
+        "Quickly retreats when exposed to bright light"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Primarily reported across North America, with concentrations in the Appalachian region, Pacific Northwest, and Midwest. Most sightings occur near cave systems or abandoned mining areas.",
+      "continents": ["North America"],
+      "countries": ["United States", "Canada"],
+      "regions": [
+        "Appalachian Mountains",
+        "Pacific Northwest",
+        "Midwest cave regions",
+        "Ozark Mountains",
+        "Canadian wilderness areas"
+      ]
+    },
+    "hotspots": [
+      {
+        "name": "Appalachian Cave Systems",
+        "location": {
+          "description": "Various cave systems throughout Appalachia",
+          "country": "United States",
+          "region": "Appalachian Mountains",
+          "coordinates": {
+            "latitude": 37.0,
+            "longitude": -81.0
+          }
+        },
+        "sighting_count": 45,
+        "peak_period": "2010-present",
+        "notes": "Highest concentration of reported sightings"
+      },
+      {
+        "name": "Mammoth Cave Region",
+        "location": {
+          "description": "Mammoth Cave area and surroundings",
+          "country": "United States",
+          "region": "Kentucky",
+          "coordinates": {
+            "latitude": 37.1862,
+            "longitude": -86.1000
+          }
+        },
+        "sighting_count": 20,
+        "peak_period": "2012-present",
+        "notes": "Multiple spelunker reports"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {
+        "date": "2005",
+        "circa": true,
+        "source": "Early internet forum posts"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "2010-2015",
+          "description": "Emergence of organized reporting through YouTube and Reddit"
+        },
+        {
+          "period": "2018-present",
+          "description": "Increased awareness and reporting through social media"
+        }
+      ],
+      "seasonal_patterns": "No clear seasonal pattern; sightings occur year-round"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Unlike traditional cryptids, the Crawler emerged primarily through internet communities and modern witness reports without clear folkloric precedent.",
+      "earliest_accounts": "First documented reports appear in internet forums around 2005-2008, with witnesses sharing encounters from earlier years.",
+      "folklore_connections": "Shares characteristics with various 'underground dweller' folklore but lacks direct historical connection."
+    },
+    "timeline": [
+      {
+        "date": "2005",
+        "event": "Early internet forum posts",
+        "significance": "First organized discussions of pale crawling humanoids",
+        "source": "Various paranormal forums"
+      },
+      {
+        "date": "2010",
+        "event": "YouTube witness accounts",
+        "significance": "Video testimonials bring wider attention",
+        "source": "YouTube channels"
+      },
+      {
+        "date": "2013",
+        "event": "Reddit compilation posts",
+        "significance": "Systematic collection of sighting reports",
+        "source": "Reddit r/Humanoidencounters"
+      },
+      {
+        "date": "2017",
+        "event": "Distinction from The Rake",
+        "significance": "Community begins distinguishing genuine reports from creepypasta",
+        "source": "Cryptid communities"
+      }
+    ],
+    "modern_era": "The Crawler represents a modern cryptid phenomenon that emerged during the internet age. While skeptics suggest the reports are influenced by creepypasta and internet horror stories, witnesses insist on genuine encounters. The phenomenon continues to generate reports, particularly from rural areas and cave exploration communities."
+  },
+
+  "sightings": {
+    "statistics": {
+      "total_documented": 150,
+      "verified": 0,
+      "disputed": 140,
+      "debunked": 10,
+      "date_range": {
+        "earliest": "2005",
+        "latest": "2026"
+      }
+    },
+    "notable": [
+      {
+        "id": "crawler-sighting-2013-appalachia",
+        "name": "Appalachian Cave Encounter",
+        "date": {
+          "value": "2013-06",
+          "precision": "month"
+        },
+        "location": {
+          "description": "Private cave system, Appalachia",
+          "country": "United States",
+          "region": "Undisclosed Appalachian location",
+          "coordinates": {
+            "latitude": null,
+            "longitude": null,
+            "precision": "withheld"
+          }
+        },
+        "witnesses": {
+          "count": 3,
+          "types": ["Cave explorers"],
+          "credibility_factors": ["Multiple witnesses", "Experienced spelunkers", "Detailed consistent accounts"]
+        },
+        "description": "Three experienced cave explorers reported encountering a pale, emaciated humanoid moving rapidly on all fours deep within a cave system. The creature fled when illuminated by headlamps but was observed for approximately 30 seconds. Witnesses describe extreme fear response and unnatural movement.",
+        "conditions": {
+          "weather": "N/A (underground)",
+          "visibility": "Cave darkness, headlamp illumination",
+          "time_of_day": "Afternoon (surface time)",
+          "duration": "30 seconds"
+        },
+        "evidence": [
+          "Multiple witness testimony",
+          "Possible tracks in cave mud (not preserved)"
+        ],
+        "credibility": {
+          "rating": "medium",
+          "factors": [
+            "Experienced witnesses",
+            "Multiple observers",
+            "Consistent testimony",
+            "No physical evidence preserved"
+          ],
+          "notes": "Witnesses were reluctant to share specific location"
+        },
+        "sources": [
+          "Personal testimony (YouTube)",
+          "Follow-up interview (cryptid podcasts)"
+        ],
+        "featured": true
+      }
+    ],
+    "database_path": null
+  },
+
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [
+      {
+        "id": "crawler-video-trailcam-2018",
+        "type": "trail camera",
+        "name": "Alleged Trail Camera Footage",
+        "date": "2018",
+        "description": "Brief trail camera footage showing pale figure moving quadrupedally",
+        "status": "disputed",
+        "analysis": "Low quality, could be person in costume or image artifact",
+        "source": "Anonymous submission"
+      }
+    ],
+    "audio": [],
+    "trace": []
+  },
+
+  "theories": {
+    "paranormal": [
+      {
+        "name": "Interdimensional entity",
+        "description": "Some theorize Crawlers are not physical creatures but interdimensional beings",
+        "proponents": ["Various paranormal researchers"],
+        "evidence_cited": ["Sudden appearances/disappearances", "Association with high strangeness areas"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Unknown cave-adapted species",
+        "description": "Possibly a cave-adapted hominid or primate species",
+        "proponents": ["Cryptozoology enthusiasts"],
+        "evidence_cited": ["Cave associations", "Pale coloration consistent with subterranean adaptation"]
+      },
+      {
+        "name": "Deformed human or primate",
+        "description": "Individual humans or primates with medical conditions",
+        "proponents": ["Skeptical researchers"],
+        "evidence_cited": ["Human-like characteristics", "No population evidence"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Internet folklore contamination",
+        "description": "Reports influenced by The Rake creepypasta and internet horror",
+        "proponents": ["Skeptics"],
+        "evidence_cited": ["Emergence coincides with creepypasta popularity", "Similarity to fictional entities"]
+      },
+      {
+        "name": "Misidentification",
+        "description": "Misidentified known animals (deer, coyotes, bears) in poor lighting",
+        "proponents": ["Skeptical investigators"],
+        "evidence_cited": ["Poor lighting conditions in reports", "Brief observation times"]
+      },
+      {
+        "name": "Psychological factors",
+        "description": "Cave darkness, isolation, and fear create hallucinations or misperceptions",
+        "proponents": ["Psychologists"],
+        "evidence_cited": ["Cave-associated reports", "Fear response affecting perception"]
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Some Appalachian folklore mentions pale underground dwellers",
+        "Cherokee stories of cave-dwelling beings"
+      ],
+      "stories": [
+        "Urban legends of abandoned mine creatures"
+      ],
+      "beliefs": "Limited traditional folklore; primarily modern phenomenon"
+    },
+    "indigenous": {
+      "cultures": [],
+      "significance": "No clear indigenous tradition associated with this specific entity",
+      "sensitivity_note": "This is primarily a modern internet-era phenomenon",
+      "respect_guidelines": "N/A"
+    },
+    "popular_culture": {
+      "literature": [
+        "Various r/nosleep and creepypasta stories (fictional)",
+        "\"The Rake\" creepypasta (fictional, but often confused with Crawler reports)"
+      ],
+      "film_tv": [
+        "Occasionally featured in paranormal YouTube channels",
+        "Subject of various horror short films"
+      ],
+      "games": [],
+      "other": [
+        "Popular topic on Reddit r/Humanoidencounters",
+        "Frequently discussed on cryptid podcasts",
+        "Growing presence on TikTok paranormal content"
+      ]
+    }
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Various YouTubers",
+        "affiliation": "Independent",
+        "contribution": "Documentation of witness testimonies",
+        "period": "2010-present"
+      }
+    ],
+    "organizations": [],
+    "ongoing_studies": "No formal scientific research. Primarily investigated by amateur cryptozoologists and paranormal enthusiasts through witness interviews and social media documentation."
+  },
+
+  "sources": [
+    {
+      "id": "reddit-humanoidencounters",
+      "type": "website",
+      "title": "r/Humanoidencounters - Crawler Reports",
+      "url": "https://www.reddit.com/r/Humanoidencounters/",
+      "accessed": "2026-01-14"
+    },
+    {
+      "id": "youtube-testimonials",
+      "type": "video",
+      "title": "Various witness testimony videos",
+      "url": "https://www.youtube.com",
+      "accessed": "2026-01-14"
+    }
+  ]
+}
