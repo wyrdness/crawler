@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/crawler",
     "maintainers": [
       {
@@ -16,111 +16,314 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "crawler",
     "name": "Crawler",
-    "aliases": [],
-    "category": "CRYPTID",
-    "subcategory": "Pale humanoid",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      { "name": "Pale Crawler", "language": "English", "region": "United States" },
+      { "name": "The Crawler", "language": "English" },
+      { "name": "Pale Skitter", "language": "English (Appalachia)", "region": "Southern Appalachia" }
     ],
-    "status": "documented",
+    "category": "CRYPTID",
+    "subcategory": "Internet-age pale humanoid",
+    "tags": [
+      "internet-folklore",
+      "creepypasta",
+      "north-america",
+      "pale-humanoid",
+      "trail-camera",
+      "appalachia",
+      "modern-cryptid"
+    ],
+    "status": "unverified",
     "description": {
-      "summary": "The Crawler is a modern cryptid described as an extremely pale, emaciated humanoid creature that moves primarily on all fours with unsettling speed and flexibility.",
-      "full": "The Crawler is a modern cryptid described as an extremely pale, emaciated humanoid creature that moves primarily on all fours with unsettling speed and flexibility. Witnesses report it as having elongated limbs, sunken features, and the ability to move in ways that seem to defy normal human anatomy. Unlike traditional cryptids with deep historical folklore roots, the Crawler phenomenon emerged primarily through internet forums and YouTube reports in the 2000s-2010s. Despite its modern origins, witnesses maintain these are genuine encounters with an unknown creature rather than internet-inspired fiction. Sightings are most commonly associated with cave systems, abandoned mines, and remote wilderness areas. The creature is described as having pale, hairless skin, a skeletal build, and large dark or reflective eyes. It typically flees when exposed to bright light and appears to be nocturnal. The Crawler represents a fascinating intersection of modern cryptozoology and internet-age folklore, with approximately 150 documented reports primarily from North America, particularly concentrated in the Appalachian region and areas with extensive cave systems."
+      "summary": "The Crawler (or Pale Crawler) is a 21st-century cryptid of internet folklore: an emaciated, hairless, ghostly-pale humanoid that moves rapidly on all fours with elongated limbs and reverse-bending joints, reported chiefly through anonymous trail-camera photographs, doorbell-camera videos, and YouTube and Reddit testimonies from rural North America.",
+      "full": "The Crawler — most often called the Pale Crawler — is a contemporary cryptid that emerged on internet forums, video-sharing sites, and television creepypasta channels from the early 2000s onward. Witnesses and image-makers describe a humanoid roughly the size of an emaciated adult, with chalk-white or grey hairless skin, oversized dark or reflective eyes, an angular skull, a wide jagged mouth, and grossly elongated limbs that often appear to bend in the wrong direction. Its signature feature is its locomotion: rather than walking upright, it scuttles rapidly on all fours, often described as 'spider-walking', and can reach extreme speeds across forest floor or through rural yards. Reports cluster in two contexts. First, in the wooded mountainous regions of the eastern United States — especially Southern Appalachia, the Pennsylvania Wilds, West Virginia, eastern Tennessee, and parts of the Ozarks — where the figure is sometimes treated as a modern descendant of older 'White Thing' frontier folklore. Second, on the internet itself, where doorbell-camera and security-camera footage of pale figures (some genuine wildlife, some hoaxes, and some images entirely unconnected to the original sighting, such as a still from the 1982 British science-fiction horror Xtro that is endlessly recirculated) sustain the legend. The Crawler is closely related to other internet-era horror entities — the Rake, Slender Man, and the Wendigo as reinterpreted in modern creepypasta — and its origins lie in the Rake creepypasta of 2005 and a wave of pale-humanoid composite imagery that followed. Most folklorists classify the Crawler as a 21st-century legend rather than a documented animal: a recombinant figure built from older Appalachian pale-creature traditions, modern medical anxieties (achondroplasia, advanced anorexia, severe sarcoidosis, mange in mammals), and the affordances of viral video imagery."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "English internet usage. 'Crawler' refers to the figure's distinctive hands-and-knees / quadrupedal locomotion. The intensifier 'Pale' became standard in viral-video discourse in the late 2010s.",
+      "meaning": "'A creature that crawls'; a pale humanoid that moves on all fours.",
+      "first_use": "Earliest widespread usage of 'Crawler' / 'Pale Crawler' in cryptid contexts dates to internet forums and creepypasta sites of the mid-2000s, building on the Rake creepypasta (first widely posted in 2005)."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
       "type": "Pale humanoid",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "subtype": "Internet-age cryptid / modern legend",
+      "variant": "North American (Appalachian and Midwestern reports)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "rake", "name": "The Rake", "relationship": "similar", "description": "Pale, gaunt humanoid creature originating in 2005 creepypasta; major precursor to Pale Crawler imagery" },
+      { "id": "slenderman", "name": "Slenderman", "relationship": "similar", "description": "Internet-folklore humanoid (2009 onward) belonging to the same creepypasta tradition" },
+      { "id": "skinwalkers", "name": "Skinwalkers", "relationship": "related", "description": "Navajo tradition occasionally cited (often inappropriately) in modern Crawler discourse" },
+      { "id": "wendigo", "name": "Wendigo", "relationship": "related", "description": "Algonquian-origin entity reinterpreted in modern creepypasta as an emaciated, antlered humanoid that overlaps Crawler imagery" },
+      { "id": "not-deer", "name": "Not Deer", "relationship": "similar", "description": "Companion internet-folklore cryptid of forest North America" },
+      { "id": "fresno-nightcrawlers", "name": "Fresno Nightcrawlers", "relationship": "similar", "description": "Earlier internet pale-humanoid video phenomenon (1990s–2007); precedent for security-camera cryptid imagery" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 1.5, "max": 2.0, "unit": "meters", "confidence": "low" },
+      "weight": { "min": 25, "max": 60, "unit": "kilograms", "confidence": "low" },
+      "coloration": ["chalk white", "ash grey", "moonlight pale"],
+      "features": [
+        { "feature": "Hairless pale skin", "description": "Smooth, hairless, conspicuously pale skin; the most consistent feature of the witness description", "frequency": "always" },
+        { "feature": "Elongated limbs", "description": "Arms and legs disproportionately long for the torso, sometimes described as bending in the wrong direction at the joints", "frequency": "always" },
+        { "feature": "Quadrupedal gait", "description": "Habitually moves on all fours, often very fast; 'spider-walking' or 'skittering' across open ground", "frequency": "always" },
+        { "feature": "Oversized dark or reflective eyes", "description": "Large eyes that catch light; often described as black or as a sharp red-orange flash on trail-camera flash images", "frequency": "common" },
+        { "feature": "Wide jagged mouth", "description": "Mouth described as too wide for the face, sometimes with prominent teeth", "frequency": "common" },
+        { "feature": "Emaciated build", "description": "Visibly skeletal frame with prominent ribs and joints", "frequency": "common" }
+      ],
+      "morphology": "Tall, gaunt humanoid base form with markedly modified limb proportions; in viral imagery often appears halfway between a starved human and a hairless primate or large salamander."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Rapid quadrupedal sprinting", "description": "Reported to outrun humans and dogs across open ground", "frequency": "always", "evidence_level": "reported" },
+      { "ability": "Light avoidance", "description": "Reportedly flees from bright lights and strong flashlights", "frequency": "common", "evidence_level": "reported" },
+      { "ability": "Vertical climbing", "description": "Climbs walls, fences, and the sides of buildings in some reports", "frequency": "occasional", "evidence_level": "reported" },
+      { "ability": "Trail-camera evasion", "description": "Reports often note that no footprints or DNA are recovered after a sighting; a hallmark of the internet-folklore form", "frequency": "common", "evidence_level": "reported" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "variable",
+      "social_structure": "solitary",
+      "habitat_preference": ["Cave systems", "Abandoned mines", "Remote rural roads at night", "Forested mountain backyards", "Suburban edge of wilderness"],
+      "diet": "Reported as carnivorous in some accounts (small wildlife, livestock); unspecified in most",
+      "patterns": [
+        "Encountered by lone witnesses at night",
+        "Most reports are camera-captured rather than face-to-face",
+        "Disappears very rapidly; reports rarely include physical traces",
+        "Strong association with rural Appalachia and the Pennsylvania Wilds in modern internet folklore"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Reports concentrate in the eastern and central United States, particularly forested mountain country (Appalachians, Pennsylvania Wilds, Ozarks), with secondary clusters in rural Canada and isolated Texas and California incidents propagated through viral video. Internet propagation has carried the figure worldwide.",
+      "continents": ["North America", "global via internet"],
+      "countries": ["United States", "Canada", "minor reports elsewhere"],
+      "regions": [
+        "Southern Appalachia",
+        "Pennsylvania Wilds",
+        "West Virginia",
+        "Eastern Tennessee",
+        "Northern Georgia",
+        "Ozarks",
+        "Southern Ohio",
+        "Internet (global propagation)"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Pennsylvania Wilds",
+        "location": {
+          "description": "Forested mountain region of north-central Pennsylvania",
+          "country": "United States",
+          "region": "Pennsylvania",
+          "coordinates": { "latitude": 41.5000, "longitude": -77.7500 }
+        },
+        "peak_period": "2010s–2020s",
+        "notes": "Repeatedly cited setting for viral 'Pale Crawler' trail-camera and doorbell-camera videos."
+      },
+      {
+        "name": "Southern Appalachia",
+        "location": {
+          "description": "Appalachian mountain region of West Virginia, eastern Tennessee, western North Carolina",
+          "country": "United States",
+          "region": "Appalachia",
+          "coordinates": { "latitude": 37.5000, "longitude": -82.5000 }
+        },
+        "peak_period": "2010s–present",
+        "notes": "Connected by some folklorists to older Appalachian 'White Thing' traditions."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "2005",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Rake creepypasta, posted to 4chan and other internet forums in 2005, often credited as the precursor of the Pale Crawler tradition"
+      },
+      "peak_activity_periods": [
+        { "period": "2005–2012", "description": "Creepypasta era: text-based pale-humanoid stories proliferate (the Rake, the Crawler)" },
+        { "period": "2017–present", "description": "Doorbell- and trail-camera era: viral video footage drives a second wave of Pale Crawler reports" }
+      ],
+      "seasonal_patterns": "Sighting reports cluster in autumn and winter, when bare trees and longer nights favour camera capture and online sharing."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Twenty-first-century internet folklore, in particular the creepypasta tradition (2000s–2010s) of anonymous user-generated horror stories, combined with viral trail-camera and doorbell-camera footage in the 2010s and 2020s.",
+      "earliest_accounts": "Discrete pale-humanoid horror entities in modern internet folklore appear in the early 2000s; the Rake creepypasta (c. 2005) is often identified as the immediate precursor of the Pale Crawler tradition.",
+      "folklore_connections": "Draws on older Appalachian 'White Thing' frontier folklore, on 1980s–1990s 'pale alien' imagery, on European wild-man and wendigo traditions, and on the modern visual culture of horror cinema (notably Xtro, 1982, an image from which has been mistaken for a Crawler photograph)."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1982", "event": "British science-fiction horror film Xtro (dir. Harry Bromley Davenport) is released; a still from this film later circulates virally as a supposed Pale Crawler photograph", "significance": "Source of one of the most-recirculated 'evidence' images, recontextualised as cryptid", "source": "Beasts of Legend: Pale Crawlers" },
+      { "date": "2005", "event": "Rake creepypasta posted to 4chan and similar boards", "significance": "Foundational 21st-century pale-humanoid horror entity; immediate precursor of Pale Crawler imagery", "source": "Folklore from the Fringe, 'Cryptid Profile: The Rake'" },
+      { "date": "2009", "event": "Slenderman is created by Eric Knudsen on Something Awful forums; the broader internet pale-humanoid genre crystallises", "significance": "Establishes the modern creepypasta-cryptid form within which the Crawler operates", "source": "Wikipedia, Slender Man" },
+      { "date": "2018-04-08", "event": "National Cryptid Society publishes a witness account of a 'large grey crawling humanoid' near Effingham, Illinois, using the term 'Pale Crawler'", "significance": "Early dedicated Pale Crawler witness publication outside of pure creepypasta", "source": "National Cryptid Society (2018), 'The Pale Crawler; Large Grey Crawling Humanoid in Effingham, Illinois'" },
+      { "date": "2020s", "event": "Viral doorbell-camera and Ring-camera videos of 'Pale Crawlers' propagate on TikTok, YouTube Shorts, and Reddit, with multiple high-profile clips that police investigate and find no physical evidence to corroborate", "significance": "Drives the second wave of mainstream awareness of the Crawler", "source": "Beasts of Legend: Pale Crawlers; Strange Observer; Urban Legends, Mystery and Myth" }
+    ],
+    "modern_era": "The Crawler is now treated by mainstream folklorists primarily as a 21st-century internet legend rather than as a documented zoological subject. Skeptical analysis routinely traces specific viral images back to film stills (Xtro), wildlife with mange or Hairless Coat Syndrome, costumed performers in viral marketing and short films, and AI-generated imagery from 2022 onward. A small minority of cryptid researchers maintain that some doorbell- and trail-camera images may show an unknown organism, sometimes hypothesised as a cave-adapted humanoid; mainstream zoologists reject this hypothesis as unsupported."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "2005 (creepypasta)", "latest": "2020s (viral video era)" }
     },
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
-    "photographic": [],
-    "video": [],
+    "photographic": [
+      {
+        "id": "crawler-evidence-xtro-still",
+        "type": "misattributed film still",
+        "name": "Xtro (1982) creature still",
+        "date": "1982",
+        "description": "A still of an emaciated humanoid creature from the British horror film Xtro that has been repeatedly circulated as 'photographic evidence' of the Pale Crawler.",
+        "status": "debunked",
+        "analysis": "Identified as a publicity still for Xtro by skeptical commentators; the image originates in scripted special-effects work, not a real-world photograph.",
+        "source": "Beasts of Legend, 'The Pale Crawlers Of North American Woods' (2024)"
+      },
+      {
+        "id": "crawler-evidence-internet-image",
+        "type": "anonymous photograph",
+        "name": "'Iconic' pale-creature internet image",
+        "description": "Highly recirculated, low-resolution image of a hairless humanoid widely captioned as a Pale Crawler; provenance is unknown, and skeptical commentators have been unable to trace it to any verified original.",
+        "status": "unverified",
+        "source": "Beasts of Legend, 'The Pale Crawlers Of North American Woods'"
+      }
+    ],
+    "video": [
+      {
+        "id": "crawler-evidence-doorbell-pa",
+        "type": "doorbell camera footage",
+        "name": "Pennsylvania Ring-camera Pale Crawler footage",
+        "description": "Several short Ring/doorbell-camera clips circulating from 2017 onward depicting a pale figure crossing a rural Pennsylvania front yard on all fours; police inspections reportedly found no footprints or physical traces.",
+        "status": "unverified",
+        "analysis": "Skeptical commentary attributes some clips to costumed performers, mange-affected dogs or coyotes, AI manipulation, and image compression artefacts; no clip has produced corroborating physical evidence.",
+        "source": "Strange Observer, 'Crawlers: Internet Folklore, Cryptid Sightings, or Subterranean Invaders?'; Beasts of Legend, 'Pale Crawlers'"
+      }
+    ],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "crawler-evidence-effingham",
+        "type": "witness report",
+        "name": "Effingham, Illinois, witness report (2018)",
+        "date": "2018-04-08",
+        "description": "First-person account submitted to the National Cryptid Society describing a 'large grey crawling humanoid' encountered in rural Effingham, Illinois.",
+        "status": "unverified",
+        "source": "National Cryptid Society (2018)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Cave-adapted humanoid hypothesis",
+        "description": "A minority cryptid view holds that the Pale Crawler may represent a cave-adapted humanoid lineage descended from ancient humans or unknown primates, with chalk-white skin and elongated limbs as evolutionary responses to total-darkness environments.",
+        "proponents": ["Various cryptid bloggers and YouTube cryptid researchers"],
+        "evidence_cited": ["Persistent geographical clustering near cave systems and abandoned mines", "Convergent evolution patterns observed in cave fish and salamanders"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Internet folklore / creepypasta hypothesis",
+        "description": "Mainstream folklorists treat the Pale Crawler as a 21st-century legend constructed online from the Rake creepypasta, viral imagery, and older Appalachian pale-creature traditions, reinforced by cherry-picked trail-camera footage.",
+        "proponents": ["Strange Observer", "Beasts of Legend", "Mainstream folklore-studies bloggers"],
+        "evidence_cited": ["Documented memetic spread through 4chan, Reddit, YouTube and TikTok", "Identification of specific 'evidence' images as film stills (Xtro) or AI generations", "Absence of physical or biological evidence over two decades of reports"]
+      },
+      {
+        "name": "Mange and hairless wildlife misidentification",
+        "description": "Many viral 'Crawler' videos are best explained by wildlife with severe mange (foxes, coyotes, raccoons), bears with sarcoptic mange, or dogs with congenital hairless syndromes seen at unusual angles or speeds.",
+        "proponents": ["Wildlife biologists", "State game commissions"],
+        "evidence_cited": ["Documented prevalence of sarcoptic mange in eastern North American wildlife", "Pennsylvania and Ohio Game Commission identifications of similar trail-camera images as mange-affected bears"]
+      },
+      {
+        "name": "Costume, hoax, and AI-image hypothesis",
+        "description": "A growing body of viral Crawler imagery is attributable to deliberate costumed performers, viral marketing, and AI-generated images of 'cryptid encounters' that proliferated from 2022 onward.",
+        "proponents": ["Skeptical cryptid commentators"],
+        "evidence_cited": ["Identification of specific viral videos as scripted shorts", "Recognition of common AI-image artefacts (extra fingers, melting joints) in many recent Pale Crawler images"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "21st-century internet creepypasta and viral-video folklore",
+        "Older Appalachian 'White Thing' frontier traditions",
+        "American camp-fire ghost-story practice"
+      ],
+      "stories": [
+        "The Rake creepypasta (c. 2005)",
+        "Effingham, Illinois, witness report (2018)",
+        "Anonymous Pennsylvania doorbell-camera Pale Crawler clips (2017–present)"
+      ],
+      "beliefs": "Most online communities treat the Crawler as a borderline case: many participants enjoy it primarily as horror entertainment, while a smaller subset advance it as a possible real cryptid."
+    },
+    "indigenous": {
+      "cultures": ["Cherokee", "Eastern Band Cherokee", "Shawnee", "Lenape (Delaware)"],
+      "significance": "The Pale Crawler is sometimes (often inappropriately) linked online to Indigenous traditions including skinwalkers and Wendigo lore.",
+      "sensitivity_note": "Indigenous communities have repeatedly objected to the appropriation of skinwalker and Wendigo concepts in modern creepypasta and Pale Crawler discourse; popular accounts should not conflate these traditions with internet-folklore cryptids.",
+      "respect_guidelines": "Distinguish modern internet folklore from named Indigenous traditions; cite Indigenous sources directly when referenced; do not present Pale Crawler accounts as continuations of Indigenous belief without explicit community sourcing."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Anonymous, 'The Rake' creepypasta (c. 2005)",
+        "Various Reddit r/nosleep and r/cryptids threads (2010s–present)",
+        "Modern horror anthologies on internet folklore"
+      ],
+      "film_tv": [
+        "Featured in YouTube horror channels (e.g. Mr. Nightmare, Wendigoon)",
+        "Brief appearances in modern horror films and shorts trading on Pale Crawler imagery"
+      ],
+      "games": [
+        "Pale humanoid enemy designs in various indie horror games (Outlast, Resident Evil 7, Faith)",
+        "Tabletop RPG adaptations in fan-made bestiaries"
+      ],
+      "music": [],
+      "other": [
+        "TikTok and YouTube Shorts viral video clusters from the late 2010s onward",
+        "Cryptid art on Etsy, Redbubble, and similar platforms"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Loren Coleman", "affiliation": "International Cryptozoology Museum", "contribution": "Cataloguing of modern American cryptids including pale-humanoid reports", "period": "2000s–present" },
+      { "name": "Kelly Murphy / Strange Observer", "affiliation": "Independent (folklore writer)", "contribution": "Systematic skeptical analysis of internet-era cryptid imagery, including the Pale Crawler", "period": "2010s–present" },
+      { "name": "Beasts of Legend (online folklore project)", "affiliation": "Independent online publication", "contribution": "Comparative analysis of Pale Crawler imagery and its sources, including identification of the Xtro still", "period": "2020s" }
+    ],
+    "organizations": [
+      { "name": "National Cryptid Society", "url": "https://nationalcryptidsociety.org", "focus": "Aggregation of modern American cryptid witness reports, including Pale Crawler accounts" },
+      { "name": "International Cryptozoology Society", "url": "https://www.cryptozoologysociety.org", "focus": "Cryptozoological scholarship and conferences" }
+    ],
+    "ongoing_studies": "Active folklorist and skeptical analysis continues online, particularly through video and audio essays on YouTube and dedicated cryptid podcasts. No mainstream academic zoological investigation has been undertaken."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "beasts-pale-crawlers", "type": "website", "title": "The Pale Crawlers Of North American Woods", "publication": "Beasts of Legend", "url": "https://beastsoflegend.com/bestiary/north-america/pale-crawlers/", "accessed": "2026-05-07" },
+    { "id": "strangeobserver-crawlers", "type": "website", "title": "Crawlers: Internet Folklore, Cryptid Sightings, or Subterranean Invaders?", "publication": "Strange Observer", "url": "https://strangeobserver.com/crawlers-internet-folklore-cryptid-sightings-or-subterranean-invaders/", "accessed": "2026-05-07" },
+    { "id": "ncs-effingham-2018", "type": "website", "title": "The Pale Crawler; Large Grey Crawling Humanoid in Effingham, Illinois", "publication": "National Cryptid Society", "date": "2018-04-08", "url": "https://nationalcryptidsociety.org/2018/04/08/the-pale-crawler-large-grey-crawling-humanoid-in-effingham-illinois/", "accessed": "2026-05-07" },
+    { "id": "folklorefringe-rake", "type": "website", "title": "Cryptid Profile: The Rake", "publication": "Folklore From the Fringe", "url": "https://folklorefromthefringe.wordpress.com/2025/10/14/cryptid-profile-the-rake/", "accessed": "2026-05-07" },
+    { "id": "pa-wilds-cryptid", "type": "website", "title": "A cryptid in the woods of the PA Wilds", "publication": "Pennsylvania Wilds", "url": "https://pawilds.com/a-cryptid-in-the-woods-of-the-pa-wilds/", "accessed": "2026-05-07" },
+    { "id": "wikipedia-creepypasta", "type": "website", "title": "Creepypasta", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Creepypasta", "accessed": "2026-05-07" }
+  ]
 }
